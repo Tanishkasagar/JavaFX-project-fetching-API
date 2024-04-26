@@ -1,0 +1,43 @@
+.root {
+    -fx-font: bold italic 16pt "Arial";
+    -fx-background-image: url("images/Background.jpg");
+    -fx-background-size: cover;
+}
+
+
+
+.label {
+    -fx-font-size: 14px;
+    -fx-font-family: "Arial";
+    -fx-text-fill: #333333;
+    -fx-background-color: rgba(255, 255, 255, 0.9);
+    -fx-padding: 5px;
+}
+
+#searchField{
+    -fx-background-color: lightgray;
+        -fx-border-color: black;
+        -fx-border-width: 2px;
+        -fx-border-radius: 20px;
+}
+
+
+.button {
+    -fx-background-radius: 20px;
+}
+
+.info-box {
+    -fx-padding: 10px;
+    -fx-spacing: 5px;
+    -fx-alignment: center;
+    -fx-justify-content: center;
+    -fx-display: flex;
+}
+
+
+.text-field{
+    -fx-background-radius: 20px;
+    -fx-border-radius: 20px;
+    -fx-padding: 8px;
+    -fx-background-color: #f7f7f7;
+}
